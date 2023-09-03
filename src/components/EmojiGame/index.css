@@ -1,0 +1,43 @@
+/* Write your code here. */
+.emoji-game-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.Emoji-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.items {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.emojis-list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  align-self: center;
+  justify-content: center;
+}

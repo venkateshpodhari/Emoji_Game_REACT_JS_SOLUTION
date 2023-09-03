@@ -45,3 +45,34 @@
   font-weight: bold;
   padding-right: 50px;
 }
+
+@media screen and (max-width: 767px) {
+  .game-title {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+
+  .Top-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 50px;
+  }
+  .title-with-logo-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    max-width: 1000px;
+  }
+}

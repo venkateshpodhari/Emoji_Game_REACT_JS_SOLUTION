@@ -21,11 +21,15 @@
   width: 100px;
 }
 
-@media screen and (max-width: 767spx) {
+@media screen and (max-width: 767px) {
   .emoji-item {
-    width: 22%;
+    width: 30%;
     list-style-type: none;
     margin-right: 8px;
     margin-bottom: 8px;
+    height: 25%;
+  }
+  .emoji {
+    width: 70px;
   }
 }
